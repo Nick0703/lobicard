@@ -17,6 +17,7 @@ This is a fork of [Lobipanel](https://github.com/arboshiki/lobipanel), migrating
 - Added some margin between control icons
 - Fix an issue using jquery's `load()`, which now assumes POST if the params is an object - params is now a string by default
 - Tooltip `destroy` issue resolves as in Bootstrap 4 it is now `dispose`.
+- When editing a card's title the contained HTML is retained. Previous behaviour was to allow a user to edit the text only and does a direct replacement, now the HTML is retrieved.
 
 ### Known issues
 
