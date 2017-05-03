@@ -273,7 +273,7 @@ body.lobicard-minimized {
     border-top-left-radius: 0px; }
     .lobicard > .card-header > .card-title {
       float: left;
-      max-width: calc(percentage("100% - %a", $lobicard-card-control-width));
+      max-width: calc(100% - 30px);
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -336,7 +336,7 @@ body.lobicard-minimized {
       clear: both; }
   @media (min-width: 576px) {
     .lobicard .card-header .card-title {
-      max-width: calc(percentage("100% - %a", $lobicard-card-control-width * 6)); }
+      max-width: calc(100% - 180px); }
     .lobicard .card-header .dropdown .dropdown-menu {
       position: static;
       display: inline-block;
@@ -405,7 +405,7 @@ body.lobicard-minimized {
         cursor: pointer;
         border-bottom: none; }
         .lobicard.card-unpin.card-minimized > .card-header .card-title {
-          max-width: calc(percentage("100% - %a", $lobicard-card-control-width * 2)); }
+          max-width: calc(100% - 60px); }
           .lobicard.card-unpin.card-minimized > .card-header .card-title h1,
           .lobicard.card-unpin.card-minimized > .card-header .card-title h2,
           .lobicard.card-unpin.card-minimized > .card-header .card-title h3,

@@ -15,7 +15,7 @@ body.lobicard-minimized {
         @include border-top-radius(0px);
         > .card-title {
             float: left;
-            max-width: calc(percentage("100% - %a", $lobicard-card-control-width));
+            max-width: calc(100% - #{$lobicard-card-control-width});
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -93,7 +93,7 @@ body.lobicard-minimized {
     @include media-breakpoint-up(sm) {
         .card-header {
             .card-title {
-                max-width: calc(percentage("100% - %a", $lobicard-card-control-width * 6));
+                max-width: calc(100% - #{$lobicard-card-control-width * 6});
             }
             @include lobicard-dropdown-screen-lg();
         }
@@ -154,7 +154,7 @@ body.lobicard-minimized {
                 cursor: pointer;
                 border-bottom: none;
                 .card-title {
-                    max-width: calc(percentage("100% - %a", $lobicard-card-control-width * 2));
+                    max-width: calc(100% - #{$lobicard-card-control-width * 2});
                     h1,
                     h2,
                     h3,
