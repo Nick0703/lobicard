@@ -1,21 +1,22 @@
 {
-  "name": "lobicard",
-  "description": "jQuery plugin for bootstrap 4 cards. It extends cards with several common and useful functions",
-  "main": [
+    "name": "lobicard",
+    "version": "1.0.0",
+    "description": "jQuery plugin for bootstrap 4 cards. It extends cards with several common and useful functions",
+    "main": [
     "dist/css/lobicard.min.css",
     "dist/js/lobicard.min.js"
   ],
-  "authors": [{
-    "name": "Zura Sekhniashvili",
-    "email": "zurasekhniashvili@gmail.com",
-    "homepage": "https://github.com/arboshiki"
+    "authors": [{
+        "name": "Zura Sekhniashvili",
+        "email": "zurasekhniashvili@gmail.com",
+        "homepage": "https://github.com/arboshiki"
   }, {
-    "name": "Jon Nicholson",
-    "email": "jon.nicholson@zinethq.com",
-    "homepage": "https://github.com/drjonnicholson"
+        "name": "Jon Nicholson",
+        "email": "jon.nicholson@zinethq.com",
+        "homepage": "https://github.com/drjonnicholson"
   }],
-  "license": "MIT",
-  "keywords": [
+    "license": "MIT",
+    "keywords": [
     "jQuery",
     "plugin",
     "bootstrap cards",
@@ -23,21 +24,21 @@
     "ajax loading cards",
     "localStorage"
   ],
-  "homepage": "https://github.com/drjonnicholson/lobicard",
-  "moduleType": [],
-  "private": true,
-  "ignore": [
+    "homepage": "https://github.com/drjonnicholson/lobicard",
+    "moduleType": [],
+    "private": true,
+    "ignore": [
     "**/.*",
     "node_modules",
     "lib",
     "test",
     "tests"
   ],
-  "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
-    "font-awesome": "^4.7.0",
-    "jquery": "^2.1.4",
-    "jquery-ui": "^1.12.1",
-    "jquery-ui-touch-punch-improved": "^0.3.1"
-  }
+    "dependencies": {
+        "bootstrap": "^4.0.0-alpha.6",
+        "font-awesome": "^4.7.0",
+        "jquery": "^2.1.4",
+        "jquery-ui": "^1.12.1",
+        "jquery-ui-touch-punch-improved": "^0.3.1"
+    }
 }
