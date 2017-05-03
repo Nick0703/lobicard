@@ -9,7 +9,7 @@ This is a fork of [Lobipanel](https://github.com/arboshiki/lobipanel), migrating
 - Switched Less to SASS, giving compatibility with Bootstrap 4
 - Glyphicons has been dropped from Bootstrap, LobiCard now uses Font Awesome by default
 - Clean up usage of `""`, now more consistently uses `''`
-- Improve support for use through NPM as well as Bower
+- Improve support for use through NPM as well as Bower. **Note:** If using NPM this requires that you do `npm install napa --save-dev` in your project. This is due to 'jquery-ui-touch-punch-improved' not being an npm package. But hey, maybe it's not needed anymore...
 - Updated the version of JQuery and JQuery UI
 - Added JS/HTML hinting and beautification configs
 - Less working files committed to Git
