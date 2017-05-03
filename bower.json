@@ -1,39 +1,43 @@
 {
-  "name": "lobipanel",
-  "description": "jQuery plugin for bootstrap panels. It extends panels with several common and useful functions",
+  "name": "lobicard",
+  "description": "jQuery plugin for bootstrap 4 cards. It extends cards with several common and useful functions",
   "main": [
-    "dist/css/lobipanel.min.css",
-    "dist/js/lobipanel.min.js"
+    "dist/css/lobicard.min.css",
+    "dist/js/lobicard.min.js"
   ],
-  "authors": [
-    {
-      "name": "Zura Sekhniashvili",
-      "email": "zurasekhniashvili@gmail.com",
-      "homepage": "https://github.com/arboshiki"
-    }
-  ],
+  "authors": [{
+    "name": "Zura Sekhniashvili",
+    "email": "zurasekhniashvili@gmail.com",
+    "homepage": "https://github.com/arboshiki"
+  }, {
+    "name": "Jon Nicholson",
+    "email": "jon.nicholson@zinethq.com",
+    "homepage": "https://github.com/drjonnicholson"
+  }],
   "license": "MIT",
   "keywords": [
     "jQuery",
     "plugin",
-    "bootstrap panels",
+    "bootstrap cards",
     "floating windows",
-    "ajax loading panels",
+    "ajax loading cards",
     "localStorage"
   ],
-  "homepage": "https://github.com/arboshiki/lobibox",
+  "homepage": "https://github.com/drjonnicholson/lobicard",
   "moduleType": [],
   "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
+    "lib",
     "test",
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "^3.3.6",
-    "jquery-ui": "^1.11.4",
+    "bootstrap": "^4.0.0-alpha.6",
+    "font-awesome": "^4.7.0",
+    "jquery": "^2.1.4",
+    "jquery-ui": "^1.12.1",
     "jquery-ui-touch-punch-improved": "^0.3.1"
   }
 }
