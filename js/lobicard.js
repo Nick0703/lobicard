@@ -169,7 +169,7 @@ $(function () {
                 me.storage = JSON.parse(me.storage) || {};
             }
             var opts = me._getOptionsFromAttributes();
-            //            window.console.log(opts);
+            // window.console.log(opts);
             options = $.extend({}, $.fn.lobiCard.DEFAULTS, me.storage, options, opts);
             var objects = ['unpin', 'reload', 'expand', 'minimize', 'close', 'editTitle'];
             for (var i = 0; i < objects.length; i++) {
@@ -1597,8 +1597,9 @@ $(function () {
                 }
             });
             // me._saveState('pinned', {index: card.index()})
-            console.log('Save indices in localstorage');
-
+            if (me.$options.log) {
+                console.log('Save indices in localstorage');
+            }
         },
         _removeInnerIdFromParent: function (innerId) {
             var me = this;
@@ -1666,7 +1667,11 @@ $(function () {
         },
         _saveState: function (state, params) {
             var me = this;
-            console.log('Save state ', state, params);
+
+            if (me.$options.log) {
+                console.log('Save state ', state, params);
+            }
+
             if (!me.hasRandomId && me.$options.stateful) {
                 me.storage.state = state;
                 if (params) {
@@ -1797,6 +1802,8 @@ $(function () {
         iconClass: 'card-control-icon'
     };
     $.fn.lobiCard.DEFAULTS = {
+        // Enable logging to console
+        log: false,
         //Makes <b>unpinned</b> card draggable
         //Warning!!! This requires jquery ui draggable widget to be included
         draggable: true,
