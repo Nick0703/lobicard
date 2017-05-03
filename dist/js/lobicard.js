@@ -1070,7 +1070,7 @@ $(function () {
         startTitleEditing: function () {
             var me = this;
             var title = me.$heading.find('.card-title')
-                .text()
+                .html()
                 .trim();
             var input = $('<input value="' + title + '"/>');
             input.on('keydown', function (ev) {
