@@ -38,7 +38,8 @@
         "bootstrap": "^4.0.0-alpha.6",
         "font-awesome": "^4.7.0",
         "jquery": "^2.1.4",
-        "jquery-ui": "^1.12.1"
+        "jquery-ui": "^1.12.1",
+        "napa": "^2.3.0"
     },
     "devDependencies": {
         "grunt": "^0.4.5",
@@ -46,7 +47,6 @@
         "grunt-contrib-cssmin": "^0.12.2",
         "grunt-contrib-sass": "^1.0.0",
         "grunt-contrib-uglify": "^0.8.0",
-        "grunt-contrib-watch": "^0.6.1",
-        "napa": "^2.3.0"
+        "grunt-contrib-watch": "^0.6.1"
     }
 }
