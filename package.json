@@ -1,6 +1,6 @@
 {
     "name": "lobicard",
-    "version": "1.0.0",
+    "version": "0.7.1",
     "description": "jQuery plugin for bootstrap 4 cards. It extends cards with several common and useful functions.",
     "repository": {
         "type": "git",
