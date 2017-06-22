@@ -28,18 +28,12 @@
   ],
     "license": "MIT",
     "main": "dist/js/lobicard.min.js",
-    "scripts": {
-        "install": "napa"
-    },
-    "napa": {
-        "jquery-ui-touch-punch-improved": "https://github.com/Bantam/jquery-ui-touch-punch-improved#0.3.1"
-    },
     "dependencies": {
         "bootstrap": "^4.0.0-alpha.6",
         "font-awesome": "^4.7.0",
         "jquery": "^2.1.4",
         "jquery-ui": "^1.12.1",
-        "napa": "^2.3.0"
+        "jquery-ui-touch-punch": "^0.2.3"
     },
     "devDependencies": {
         "grunt": "^0.4.5",
